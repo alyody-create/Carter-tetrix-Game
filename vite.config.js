@@ -10,12 +10,9 @@ export default defineConfig({
     assetsDir: 'assets',
     rollupOptions: {
       output: {
-        manualChunks: undefined,
-      },
+        manualChunks: undefined
+      }
     },
-    sourcemap: false,
-  },
-  resolve: {
-    extensions: ['.js', '.jsx', '.ts', '.tsx']
+    sourcemap: false
   }
 })
